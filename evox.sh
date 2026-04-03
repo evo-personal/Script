@@ -29,7 +29,7 @@ git clone https://github.com/evo-personal/rn10_vendor_common.git vendor/xiaomi/s
 git clone https://github.com/evo-personal/kernel.git kernel/xiaomi/mojito
 git clone https://github.com/evo-personal/hardware.git hardware/xiaomi
 git clone https://github.com/TogoFire/packages_apps_ViPER4AndroidFX.git packages/apps/ViPER4AndroidFX
-git clone https://gitlab.com/sachinbarange86/android_vendor_xiaomi_mojito-leicacamera.git vendor/xiaomi/mojito-leicacamera
+git clone https://gitlab.com/sachinbarange86/android_vendor_xiaomi_mojito-leicacamera.git -b main vendor/xiaomi/mojito-leicacamera
 echo "============================"
 echo "Clone success"
 echo "============================"
