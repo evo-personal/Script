@@ -10,6 +10,7 @@ rm -rf kernel/xiaomi/mojito
 rm -rf hardware/xiaomi
 rm -rf packages/apps/ViPER4AndroidFX
 rm -rf vendor/xiaomi/mojito-leicacamera
+rm -rf frameworks/native
 
 # Local TimeZone
 sudo rm -rf /etc/localtime
@@ -30,6 +31,7 @@ git clone https://github.com/evo-personal/kernel.git kernel/xiaomi/mojito
 git clone https://github.com/evo-personal/hardware.git hardware/xiaomi
 git clone https://github.com/TogoFire/packages_apps_ViPER4AndroidFX.git packages/apps/ViPER4AndroidFX
 git clone https://gitlab.com/sachinbarange86/android_vendor_xiaomi_mojito-leicacamera.git -b main vendor/xiaomi/mojito-leicacamera
+git clone https://github.com/evo-personal/frameworks_native.git frameworks/native
 echo "============================"
 echo "Clone success"
 echo "============================"
